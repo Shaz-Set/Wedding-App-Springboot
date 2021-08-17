@@ -15,4 +15,9 @@ public class PackagesDAOImpl implements PackagesDAO {
         drinkPackage.add(dPackages);
         return 1;
     }
+
+    @Override
+    public List<DrinkPackages> getAllPackages() {
+        return drinkPackage;
+    }
 }
